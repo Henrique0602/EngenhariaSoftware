@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <H3>Gênero : </H3>
+            <input type="radio" name="genero" value="Masculino">
+            <span>Masculino</span><BR></BR>
+
+            <input type="radio" name="genero" value="Feminino">
+            <span>Feminino</span><BR></BR>
+
+            <input type="radio" name="genero" value="Outros">
+            <span>Outros</span><BR></BR>
+
+            <hr>
+
+            <h3>Meios de transporte para ir à Fiap</h3>
+            <input type="checkbox" name="transportes" value="onibus">
+            <span>Ônibus</span>
+
+            <input type="checkbox" name="transportes" value="Metrô">
+            <span>Metrô</span>
+
+            <input type="checkbox" name="transportes" value="Carro">
+            <span>Carro</span>
+
+            <input type="checkbox" name="transportes" value="Bicicleta">
+            <span>Bicicleta</span>
+
+            <hr>
+
+            <h3>Selecione o tamanho da sua camisa </h3>
+
+            <select name="tamanhos" id="">
+                <option value="p">Pequeno</option>
+                <option value="m">Médio</option>
+                <option value="g">Grande</option>
+            </select>
+
+            <hr>
+
+            <label for="nome_sobrenome">Nome e Sobrenome: </label>
+            <input type="text" name="nome_sobrenome" placeholder="Digite aqui seu nome...">
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
