@@ -1,0 +1,11 @@
+.desafio1 p{
+    color: orange;
+}
+
+#lista1{
+    background-color: rgba(255, 99, 71, 0.8);
+}
+
+#lista1 li{
+    color: #0000ff ;
+}
