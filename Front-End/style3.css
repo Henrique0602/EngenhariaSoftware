@@ -1,0 +1,80 @@
+/*Pseudo-classes dinamicas*/
+body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+div{
+    color: rgb(0, 0, 0);
+}
+div:hover{
+    color: orange;
+}
+
+a:active{
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    color: rgb(255, 14, 14);
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+ul{
+    color: rgb(0, 0, 0);
+}
+li:first-child{
+    color: orange;
+}
+
+li:last-child{
+    color: rgb(255, 0, 0);
+}
+
+li:nth-child(2n+1){
+    color: green;
+}
+
+:checked{
+    margin-left: 25px;
+}
+
+input[type="radio"]:checked{
+    margin-left: 25px;
+}
+
+option:checked{
+    color: red;
+}
+
+input[type="email"]:invalid{
+    background-color: orange;
+}
+
+input[type="email"]:valid{
+    background-color: green;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+
+p::first-letter{
+    color: red;
+    text-transform: uppercase;
+}
