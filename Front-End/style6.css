@@ -1,0 +1,70 @@
+#grand{
+    background-image: linear-gradient(red,yellow);
+}
+
+div.vazio{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+}
+
+div.trasnform{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    background-color: red;
+    /*transform: translate(10px,20px);*/
+    /* transform: rotateX(30deg); */
+    /* transform: scale(2,1); */
+
+}
+
+div.transition{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transition: all 2s
+}
+
+div.transition:hover{
+    height: 200px;
+    width: 200px;
+    padding: 200px;
+    background-color: cyan;
+}
+
+h1{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+div.efeito{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+@keyframes um_efeito {
+    0%{width: 100px;}
+    25%{width: 300px;}
+    50%{width: 200px;
+    background-color: red;}
+    75%{width: 300px;}
+    100%{width: 100px;
+    background-color: green;}
+}
