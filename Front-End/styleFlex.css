@@ -1,0 +1,154 @@
+.caixa-cinza{
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.caixa-direction{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.numero{
+    font-size: 150%;
+    color: rgb(250,192,0);
+    font-weight: bold;
+}
+
+.circulo{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: rgb(189,186,186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.caixa-branca{
+    background-color: #ffffff;
+    border: solid 1px #eeff00;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caixa-wrap{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
+
+.caixa-azul{
+    background-color: #287bf7;
+    border-radius: 10px;
+    padding: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caixa-justify{
+    width: 100px;
+    height: 100px;
+    background-color: #fab778;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.caixa-preta{
+    background-color: #ffffff;
+    border: solid 1px #eeff00;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    
+}
+
+.caixa-wrap1{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 4px dotted rgb(255, 0, 0);
+}
+
+
+.caixa-wrap2{
+    width: 100px;
+    height: 100px;
+    background-color: #5eff00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 4px dotted rgb(255, 0, 0);
+}
+
+
+.caixa-wrap3{
+    width: 100px;
+    height: 100px;
+    background-color: #00fff2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 4px dotted rgb(255, 0, 0);
+}
+
+
+.caixa-wrap4{
+    width: 100px;
+    height: 100px;
+    background-color: #1900ff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 4px dotted rgb(255, 0, 0);
+}
+
+.caixa-wrap5{
+    width: 100px;
+    height: 100px;
+    background-color: #342c7c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    border: 4px dotted rgb(255, 0, 0);
+}
+
+
+
+
